@@ -28,7 +28,7 @@ body {
   justify-content: flex-end;
 }
 .header {
-  background-image: url("images/header-background.jpg");
+  background: url("../images/bmx.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -40,4 +40,9 @@ body {
   left: 0;
   top: 0;
   background: rgba(0, 0, 0, 0.6);
+}
+.page-header {
+  padding-bottom: 400px;
+  margin: 0px 0 0px;
+  border-bottom: 1px solid #eee;
 }
