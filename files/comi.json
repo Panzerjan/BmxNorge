@@ -1,0 +1,30 @@
+{
+    "commissioner": [
+        {
+            "name": "Endre boe",
+            "type": "local",
+            "club": "Sola Bmx",
+            "status": "Aktiv"
+        },
+        {
+            "name": "Simen Nilsen",
+            "type": "National",
+            "club": "Orstad Bmx",
+            "status": "Aktiv"
+        },
+        {
+            "id": "6608bcc0-4606-4a8b-9e8a-26457c519b16",
+            "name": "Thorbjorn Svendsen",
+            "type": "Local",
+            "club": "Sola Bmx",
+            "status": "Aktiv"
+        },
+        {
+            "id": "938d8acf-d908-422a-9c49-f3435992d488",
+            "name": "Jan Erik Johannessen",
+            "type": "National",
+            "club": "Sandnes Bmx",
+            "status": "Aktiv"
+        }
+    ]
+}

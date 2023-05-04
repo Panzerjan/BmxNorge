@@ -1,0 +1,19 @@
+{
+    "race": [
+        {
+            "location": "Klepp Bmx",
+            "type": "local",
+            "date": "12042023"
+        },
+        {
+            "location": "Sola Bmx",
+            "type": "National",
+            "date": "22042023"
+        },
+        {
+            "location": "Sola Bmx",
+            "type": "National",
+            "date": "23042023"
+        }
+    ]
+}
