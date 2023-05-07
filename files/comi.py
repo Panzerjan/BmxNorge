@@ -26,4 +26,4 @@ def add_commissar(name, com_type, club, status, id=None):
     print(f"{name} has been added to the list of Commissars.")
 
 
-add_commissar('Jan Erik Johannessen', 'National', "Sandnes Bmx", "Aktiv")
+add_commissar('Endre boe', 'local', "Sola Bmx", "Aktiv")
