@@ -22,11 +22,11 @@
             "status": "Aktiv"
         },
         {
-            "id": "ed8fa86a-c13f-4b6a-8298-e24ff28d8c61",
-            "name": "Endre boe",
-            "type": "local",
+            "name": "Endre Boe",
+            "type": "Local",
             "club": "Sola Bmx",
-            "status": "Aktiv"
+            "status": true,
+            "id": "0d694c6b-136a-4769-9b28-081f378eed07"
         }
     ]
 }
