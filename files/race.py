@@ -1,9 +1,10 @@
 import json
 
+file = './'
 
 def add_race(races):
     # Load the data from the JSON file
-    with open("./Python/comi/race.json", "r") as infile:
+    with open("./files/race.json", "r") as infile:
         data = json.load(infile)
 
     # Add each race to the data
@@ -19,11 +20,11 @@ def add_race(races):
             print(f"{race['date']} has been added to the list of races.")
 
     # Write the updated data back to the JSON file
-    with open("./Python/comi/race.json", "w") as outfile:
+    with open("./files/race.json", "w") as outfile:
         json.dump(data, outfile, indent=4)
 
 
-races_to_add = [{'location': 'Sola Bmx', 'type': 'National', 'date': '22042023'},    {
+races_to_add = [{'location': 'Sandnes Bmx', 'type': 'Local', 'date': '31052023'},    {
     'location': 'Sola Bmx', 'type': 'National', 'date': '23042023'}]
 
 add_race(races_to_add)
