@@ -3,17 +3,100 @@
         {
             "location": "Klepp Bmx",
             "type": "local",
-            "date": "12042023"
+            "date": "12042023",
+            "description": "This is a local race taking place at Klepp Bmx on 12042023.",
+            "Country": "Norway"
         },
         {
             "location": "Sola Bmx",
             "type": "National",
-            "date": "22042023"
+            "date": "22042023",
+            "description": "This is a National race taking place at Sola Bmx on 22042023.",
+            "Country": "Norway"
         },
         {
             "location": "Sola Bmx",
             "type": "National",
-            "date": "23042023"
+            "date": "23042023",
+            "description": "This is a National race taking place at Sola Bmx on 23042023.",
+            "Country": "Norway"
+        },
+        {
+            "location": "Sandnes Bmx",
+            "type": "Local",
+            "date": "31052023",
+            "description": "This is a Local race taking place at Sandnes Bmx on 31052023.",
+            "Country": "Norway"
+        },
+        {
+            "location": "Sviland Bmx",
+            "type": "Local",
+            "date": "07062023",
+            "description": "This is a Local race taking place at Sviland Bmx on 07062023.",
+            "Country": "Norway"
+        },
+        {
+            "location": "Klepp Bmx",
+            "type": "Local",
+            "date": "23082023",
+            "description": "This is a Local race taking place at Klepp Bmx on 23082023.",
+            "Country": "Norway"
+        },
+        {
+            "location": "Sola Bmx",
+            "type": "Local",
+            "date": "30082023",
+            "description": "This is a Local race taking place at Sola Bmx on 30082023.",
+            "Country": "Norway"
+        },
+        {
+            "location": "Orstad Bmx",
+            "type": "Local",
+            "date": "13092023",
+            "description": "This is a Local race taking place at Orstad Bmx on 13092023.",
+            "Country": "Norway"
+        },
+        {
+            "location": "Sandnes Bmx",
+            "type": "RM",
+            "date": "20092023",
+            "description": "This is a RM race taking place at Sandnes Bmx on 20092023.",
+            "Country": "Norway"
+        },
+        {
+            "location": "Sviland Bmx",
+            "type": "National",
+            "date": "01102023",
+            "description": "This is a National race taking place at Sviland Bmx on 01102023.",
+            "Country": "Norway"
+        },
+        {
+            "location": "Sviland Bmx",
+            "type": "National",
+            "date": "02102023",
+            "description": "This is a National race taking place at Sviland Bmx on 02102023.",
+            "Country": "Norway"
+        },
+        {
+            "location": "Sviland Bmx",
+            "type": "Local",
+            "date": "21102023",
+            "description": "This is a Local race taking place at Sviland Bmx on 21102023.",
+            "Country": "Norway"
+        },
+        {
+            "location": "Raade Bmx",
+            "type": "NM",
+            "date": "01072023",
+            "Country": "Norway",
+            "description": "This is a NM race taking place at Raade Bmx on 01072023."
+        },
+        {
+            "location": "Raade Bmx",
+            "type": "National",
+            "date": "02072023",
+            "Country": "Norway",
+            "description": "This is a National race taking place at Raade Bmx on 02072023."
         }
     ]
 }

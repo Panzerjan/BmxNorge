@@ -1,4 +1,5 @@
 import json
+import uuid
 
 
 class CommissionerReader:
@@ -25,11 +26,15 @@ class CommissionerManager:
         self.reader = CommissionerReader(file_path)
         self.writer = CommissionerWriter(file_path)
 
+    def generate_id(self):
+        return str(uuid.uuid4())
+
     def add_commissioner(self, commissioner):
         data = self.reader.read_data()
 
         existing_commissioners = [c['name'] for c in data['commissioner']]
         if commissioner['name'] not in existing_commissioners:
+            commissioner['id'] = self.generate_id()
             data['commissioner'].append(commissioner)
             self.writer.write_data(data)
             print(f"Commissioner '{commissioner['name']}' added successfully.")
