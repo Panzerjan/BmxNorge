@@ -24,7 +24,6 @@ def add_race(races):
         json.dump(data, outfile, indent=4)
 
 
-races_to_add = [{'location': 'Sandnes Bmx', 'type': 'Local', 'date': '31052023'},    {
-    'location': 'Sola Bmx', 'type': 'National', 'date': '23042023'}]
+races_to_add = [{'location': 'Sviland Bmx', 'type': 'Local', 'date': '07062023'}]
 
 add_race(races_to_add)

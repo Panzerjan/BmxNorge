@@ -1,24 +1,14 @@
-from files.comi import CommissionerManager
+import tkinter as tk
+from app.dashboard import Dashboard
 
-
-def main():
-    path = "./files/comi.json"
-
-    try:
-        manager = CommissionerManager(path)
-
-        new_commissioner = {
-            "name": "Endre Boe",
-            "type": "Local",
-            "club": "Sola Bmx",
-            "status": True
-        }
-
-        manager.add_commissioner(new_commissioner)
-    except Exception as e:
-        print(e)
-        raise e
-
+class MainApp(tk.Tk):
+    def __init__(self):
+        super().__init__()
+        self.title("My App")
+        
+        self.dashboard = Dashboard(self)
+        self.dashboard.pack(expand=True, fill="both")
 
 if __name__ == "__main__":
-    main()
+    app = MainApp()
+    app.mainloop()

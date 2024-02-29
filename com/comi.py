@@ -1,4 +1,5 @@
 import json
+import uuid
 
 
 class CommissionerReader:
@@ -30,9 +31,17 @@ class CommissionerManager:
 
         existing_commissioners = [c['name'] for c in data['commissioner']]
         if commissioner['name'] not in existing_commissioners:
-            data['commissioner'].append(commissioner)
-            self.writer.write_data(data)
-            print(f"Commissioner '{commissioner['name']}' added successfully.")
+            # Generating a unique ID for the new commissioner
+            commissioner_id = str(uuid.uuid4())
+            commissioner['id'] = commissioner_id
+            # Validating commissioner type
+            commissioner_type = commissioner.get('type', '').lower()
+            if commissioner_type in ["local", "national", "international"]:
+                data['commissioner'].append(commissioner)
+                self.writer.write_data(data)
+                print(f"Commissioner '{commissioner['name']}' added successfully.")
+            else:
+                print("Commissioner type must be 'Local', 'National', or 'International'.")
         else:
             print(f"Commissioner '{commissioner['name']}' already exists.")
 
@@ -48,3 +57,21 @@ class CommissionerManager:
                 return
 
         print(f"Commissioner with ID '{commissioner_id}' not found.")
+
+    def remove_commissioner(self, commissioner):
+        data = self.reader.read_data()
+
+        if "commissioner" in data:
+            data["commissioner"] = [d for d in data["commissioner"] if d.get("name") != name]
+        return data
+
+    def remove_commissioner(self, name):
+        data = self.reader.read_data()
+
+        if "commissioner" in data:
+            data["commissioner"] = [d for d in data["commissioner"] if d.get("name") != name]
+            self.writer.write_data(data)
+            print(f"Commissioner '{name}' removed successfully.")
+            return
+        else:
+            print(f"No 'commissioner' data found in the file.")

@@ -27,6 +27,13 @@
             "club": "Sola Bmx",
             "status": true,
             "id": "0d694c6b-136a-4769-9b28-081f378eed07"
+        },
+        {
+            "name": "Joe Doe",
+            "type": "Local",
+            "club": "Orstad Bmx",
+            "status": true,
+            "id": "82443849-5f14-48cb-97a3-a117ef09acb4"
         }
     ]
 }
