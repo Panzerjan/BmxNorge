@@ -34,7 +34,7 @@ class CommissionerManager:
 
         existing_commissioners = [c['name'] for c in data['commissioner']]
         if commissioner['name'] not in existing_commissioners:
-
+<<<<<<<< HEAD:com/comi.py
             # Generating a unique ID for the new commissioner
             commissioner_id = str(uuid.uuid4())
             commissioner['id'] = commissioner_id
@@ -46,7 +46,12 @@ class CommissionerManager:
                 print(f"Commissioner '{commissioner['name']}' added successfully.")
             else:
                 print("Commissioner type must be 'Local', 'National', or 'International'.")
-
+========
+            commissioner['id'] = self.generate_id()
+            data['commissioner'].append(commissioner)
+            self.writer.write_data(data)
+            print(f"Commissioner '{commissioner['name']}' added successfully.")
+>>>>>>>> b4d28f2c9532a14ff9ed16f7d151f3217ff41ad2:bmx/comi.py
         else:
             print(f"Commissioner '{commissioner['name']}' already exists.")
 

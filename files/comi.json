@@ -1,25 +1,19 @@
 {
     "commissioner": [
         {
-            "id": "6608bcc0-4606-4a8b-9e8a-26457c519b16",
-            "name": "Thorbjorn Svendsen",
-            "type": "Local",
-            "club": "Sola Bmx",
-            "status": "Aktiv"
-        },
-        {
-            "id": "938d8acf-d908-422a-9c49-f3435992d488",
+            
             "name": "Jan Erik Johannessen",
             "type": "National",
             "club": "Sandnes Bmx",
-            "status": "Aktiv"
+            "status": true, 
+            "id": "938d8acf-d908-422a-9c49-f3435992d488"
         },
         {
-            "id": "4f5879c0-d219-4875-9f16-7ebf4f3ae82e",
             "name": "Simen Nilsen",
             "type": "National",
             "club": "Orstad Bmx",
-            "status": "Aktiv"
+            "status": true,
+            "id": "4f5879c0-d219-4875-9f16-7ebf4f3ae82e",
         },
         {
             "name": "Endre Boe",
@@ -27,13 +21,6 @@
             "club": "Sola Bmx",
             "status": true,
             "id": "0d694c6b-136a-4769-9b28-081f378eed07"
-        },
-        {
-            "name": "Joe Doe",
-            "type": "Local",
-            "club": "Orstad Bmx",
-            "status": true,
-            "id": "82443849-5f14-48cb-97a3-a117ef09acb4"
         }
     ]
 }
