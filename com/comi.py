@@ -63,12 +63,6 @@ class CommissionerManager:
 
         print(f"Commissioner with ID '{commissioner_id}' not found.")
 
-    def remove_commissioner(self, commissioner):
-        data = self.reader.read_data()
-
-        if "commissioner" in data:
-            data["commissioner"] = [d for d in data["commissioner"] if d.get("name") != name]
-        return data
 
     def remove_commissioner(self, name):
         data = self.reader.read_data()

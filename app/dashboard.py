@@ -7,11 +7,12 @@ class Dashboard(tk.Frame):
     def __init__(self, master):
         super().__init__(master)
         
-        self.label = tk.Label(self, text="Dashboard")
+        self.label = tk.Label(self, text="Norway bmx")
         self.label.pack()
 
         # Button to open add commissioner window
         tk.Button(self, text="Add Commissioner", command=self.open_add_commissioner_window).pack()
+        tk.Button(self, text="Add Race", command=self.open_race_window).pack()
 
         # Status label
         self.status_label = tk.Label(self, text="")
@@ -38,6 +39,9 @@ class Dashboard(tk.Frame):
         # Button to add commissioner
         tk.Button(add_commissioner_window, text="Add Commissioner", command=self.add_commissioner).grid(row=3, columnspan=2)
         tk.Button(add_commissioner_window, text="Remove Commissioner", command=self.remove_commissioner).grid(row=4, columnspan=2)
+
+    def open_race_window(self):
+        print("hei")
 
     def add_commissioner(self):
         name = self.name_entry.get()

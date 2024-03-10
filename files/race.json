@@ -15,33 +15,15 @@
             "Country": "Norway"
         },
         {
-            "location": "Sola Bmx",
-            "type": "National",
-<<<<<<< HEAD
-            "date": "23042023"
-=======
-            "date": "23042023",
-            "description": "This is a National race taking place at Sola Bmx on 23042023.",
-            "Country": "Norway"
->>>>>>> b4d28f2c9532a14ff9ed16f7d151f3217ff41ad2
-        },
-        {
             "location": "Sandnes Bmx",
             "type": "Local",
-<<<<<<< HEAD
-            "date": "31052023"
-=======
             "date": "31052023",
             "description": "This is a Local race taking place at Sandnes Bmx on 31052023.",
             "Country": "Norway"
->>>>>>> b4d28f2c9532a14ff9ed16f7d151f3217ff41ad2
         },
         {
             "location": "Sviland Bmx",
             "type": "Local",
-<<<<<<< HEAD
-            "date": "07062023"
-=======
             "date": "07062023",
             "description": "This is a Local race taking place at Sviland Bmx on 07062023.",
             "Country": "Norway"
@@ -94,7 +76,6 @@
             "date": "21102023",
             "description": "This is a Local race taking place at Sviland Bmx on 21102023.",
             "Country": "Norway"
->>>>>>> b4d28f2c9532a14ff9ed16f7d151f3217ff41ad2
         }
     ]
 }
