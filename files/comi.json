@@ -1,0 +1,32 @@
+{
+    "commissioner": [
+        {
+            "name": "Jan Erik Johannessen",
+            "type": "National",
+            "club": "Sandnes Bmx",
+            "status": true,
+            "id": "938d8acf-d908-422a-9c49-f3435992d488"
+        },
+        {
+            "name": "Simen Nilsen",
+            "type": "National",
+            "club": "Orstad Bmx",
+            "status": true,
+            "id": "4f5879c0-d219-4875-9f16-7ebf4f3ae82e"
+        },
+        {
+            "name": "Endre Boe",
+            "type": "Local",
+            "club": "Sola Bmx",
+            "status": true,
+            "id": "0d694c6b-136a-4769-9b28-081f378eed07"
+        },
+        {
+            "name": "Kjell Ove Bore",
+            "type": "Local",
+            "club": "Orstad BMX",
+            "status": true,
+            "id": "8ff2be2d-03d7-4de9-9ed0-68cdecef02e1"
+        }
+    ]
+}

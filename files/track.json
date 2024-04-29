@@ -1,0 +1,94 @@
+{
+    "track": [
+        {
+            "Id": "1",
+            "Club": "Sola Bmx",
+            "location": "Sola",
+            "Country": "Norway",
+            "Region": "Vest",
+            "date": "2023-06-19",
+            "address": "Stangelandvegen"
+        },
+        {
+            "Id": "2",
+            "Club": "Sviland Bmx",
+            "location": "Sandnes",
+            "Country": "Norway",
+            "Region": "Vest",
+            "date": "2023-06-19",
+            "address": "Espelandveien 360"
+        },
+        {
+            "Id": "5",
+            "Club": "Klepp Bmx",
+            "location": "Klepp",
+            "Country": "Norway",
+            "Region": "Vest",
+            "date": "2023-06-19",
+            "address": "Kleppelundvegen 161"
+        },
+        {
+            "Id": "4",
+            "Club": "Orstad Bmx",
+            "location": "Klepp",
+            "Country": "Norway",
+            "Region": "Vest",
+            "date": "2023-06-19",
+            "address": "4355 Klepp"
+        },
+        {
+            "Id": "3",
+            "Club": "Sandnes Bmx",
+            "location": "Sandnes",
+            "Country": "Norway",
+            "Region": "Vest",
+            "date": "2023-06-19",
+            "address": "Kvaalkroken 6"
+        },
+        {
+            "Id": "6",
+            "Club": "Raade BMX",
+            "location": "Raade",
+            "Country": "Norway",
+            "Region": "East",
+            "date": "2023-06-20",
+            "address": "Idrettsveien 30"
+        },
+        {
+            "Id": "7",
+            "Club": "Moss Bmx",
+            "location": "Moss",
+            "Country": "Norway",
+            "Region": "East",
+            "date": "2023-06-20",
+            "address": "Ostre Ore"
+        },
+        {
+            "Id": "8",
+            "Club": "Gressvik BMX",
+            "location": "Fredrikstad",
+            "Country": "Norway",
+            "Region": "East",
+            "date": "2023-06-20",
+            "address": "Ostkilen 1 a"
+        },
+        {
+            "Id": "9",
+            "Club": "Aremark BMX",
+            "location": "Aremark",
+            "Country": "Norway",
+            "Region": "East",
+            "date": "2023-06-20",
+            "address": "Asketjernveien"
+        },
+        {
+            "Id": "10",
+            "Club": "BOC BMX",
+            "location": "Rykkinn",
+            "Country": "Norway",
+            "Region": "East",
+            "date": "2023-06-20",
+            "address": "Gamle Lommedalsvei 99"
+        }
+    ]
+}

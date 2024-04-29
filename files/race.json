@@ -1,0 +1,74 @@
+[
+    {
+        "ArrangementId": 49,
+        "Dato": "21.04.2024",
+        "Klubbid": 3,
+        "LopId": 2,
+        "SK": "Jan Erik Johannessen",
+        "SK_ASS": "Njal Fjotland",
+        "Jury": "Kjell Over Bore",
+        "Jury_2": " "
+      },
+    {
+      "ArrangementId": 50,
+      "Dato": "22.04.2024",
+      "Klubbid": 3,
+      "LopId": 2,
+      "SK": "Jan Erik Johannessen",
+      "SK_ASS": "Njal Fjotland",
+      "Jury": "Endre Boen",
+      "Jury_2": " "
+    },
+    {                                      
+    "ArrangementId": 51,
+      "Dato": "29.04.2024",
+      "Klubbid": 4,
+      "LopId": 1,
+      "SK": "Endre Boen",
+      "SK_ASS": "Eldar Kyllesto",
+      "Jury": null,
+      "Jury_2": null
+    },
+    {                                      
+    "ArrangementId": 52,
+      "Dato": "06.05.2024",
+      "Klubbid": 1,
+      "LopId": 1,
+      "SK": "Eldar Kyllesto",
+      "SK_ASS": "May-Lillian Osaland",
+      "Jury": null,
+      "Jury_2": null
+    },
+    {                                      
+    "ArrangementId": 53,
+      "Dato": "10.06.2024",
+      "Klubbid": 3,
+      "LopId": 1,
+      "SK": "Helge Gunnar Nesse",
+      "SK_ASS": "May-Lillian Osaland",
+      "Jury": null,
+      "Jury_2": null
+    },
+    {                                      
+    "ArrangementId": 54,
+      "Dato": "10.06.2024",
+      "Klubbid": 2,
+      "LopId": 4,
+      "SK": "Jan Erik Johannessen",
+      "SK_ASS": "Njaal Fjotland",
+      "Jury": "Kjell Ove Bore",
+      "Jury_2": null
+    },
+    {                                      
+    "ArrangementId": 55,
+      "Dato": "10.06.2024",
+      "Klubbid": 5,
+      "LopId": 2,
+      "SK": "Jan Erik Johannessen",
+      "SK_ASS": "May-Lillian Osaland",
+      "Jury": "Eldar Kyllesto",
+      "Jury_2": null
+    }
+
+
+  ]
