@@ -75,4 +75,7 @@ class CommissionerManager:
         else:
             print(f"No 'commissioner' data found in the file.")
 
+    def list_commissioner(self):
+        data = self.reader.read_data()
 
+        return data, 200

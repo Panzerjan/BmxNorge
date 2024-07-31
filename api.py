@@ -39,6 +39,13 @@ def remove_commissioner(name: str):
         raise HTTPException(status_code=status, detail=response["message"])
     return response
 
+@app.get("/commissioners")
+def list_commissioner():
+    response, status = manager.list_commissioner()
+    if status != 200:
+        raise HTTPException(status_code=status, detail=response["message"])
+    return response
+
 if __name__ == '__main__':
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
