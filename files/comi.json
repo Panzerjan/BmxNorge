@@ -27,6 +27,20 @@
             "club": "Orstad BMX",
             "status": true,
             "id": "8ff2be2d-03d7-4de9-9ed0-68cdecef02e1"
+        },
+        {
+            "name": "Eldar Kyllesto",
+            "type": "Local",
+            "club": "Sviland BMX Club",
+            "status": true,
+            "id": "4ef61552-225f-4618-a6f3-c7a096123a97"
+        },
+        {
+            "name": "Aleksander Veraland",
+            "type": "regional",
+            "club": "Sviland BMX Club",
+            "status": true,
+            "id": "46857d15-0db2-4914-9eea-42c18f2474b0"
         }
     ]
 }

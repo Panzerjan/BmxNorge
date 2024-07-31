@@ -40,12 +40,12 @@ class CommissionerManager:
             commissioner['id'] = commissioner_id
             # Validating commissioner type
             commissioner_type = commissioner.get('type', '').lower()
-            if commissioner_type in ["local", "national", "international"]:
+            if commissioner_type in ["regional", "national", "international"]:
                 data['commissioner'].append(commissioner)
                 self.writer.write_data(data)
                 print(f"Commissioner '{commissioner['name']}' added successfully.")
             else:
-                print("Commissioner type must be 'Local', 'National', or 'International'.")
+                print("Commissioner type must be 'Regional', 'National', or 'International'.")
 
         else:
             print(f"Commissioner '{commissioner['name']}' already exists.")
